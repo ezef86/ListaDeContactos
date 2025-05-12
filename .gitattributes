@@ -1,0 +1,17 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted
+*.js   text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+
+# Binary files (no EOL conversion)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
